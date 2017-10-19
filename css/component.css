@@ -51,7 +51,7 @@ body {
     position: relative;
     margin: 0 auto;
     width: 180px;
-    height: 260px;
+    height: 233px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
@@ -487,6 +487,8 @@ body {
     background: url(../img/book1/cobra1.jpg);
     background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/book1/cobra1.jpg), #009bdb;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/book1/cobra1.jpg), #009bdb;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .book[data-book="book-1"] .inner { border-color: #009bdb }
@@ -500,9 +502,11 @@ body {
 .no-csstransforms3d .book[data-book="book-2"],
 .no-js .book[data-book="book-2"],
 .book[data-book="book-2"] .front {
-    background: url(../img/cover2.svg);
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover2.svg), #f6a7a5;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover2.svg), #f6a7a5;
+    background: url(../img/book2/identity1.jpg);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/book2/identity1.jpg), #f6a7a5;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/book2/identity1.jpg), #f6a7a5;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .book[data-book="book-2"] .inner { border-color: #f6a7a5 }
@@ -516,9 +520,11 @@ body {
 .no-csstransforms3d .book[data-book="book-3"],
 .no-js .book[data-book="book-3"],
 .book[data-book="book-3"] .front {
-    background: url(../img/cover3.svg);
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover3.svg), #ebc989;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover3.svg), #ebc989;
+    background: url(../img/book3/truth1.jpg);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/book3/truth1.jpg), #ebc989;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/book3/truth1.jpg), #ebc989;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .book[data-book="book-3"] .inner { border-color: #ebc989 }
